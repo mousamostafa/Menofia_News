@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/back"
+        android:scaleType="fitXY"  />
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/relat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        android:padding="10dp">
+    <Button
+        android:id="@+id/arab"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/arab"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/engl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/en_1"
+        android:layout_alignParentStart="true" />
+
+  <TextView
+      android:id="@+id/arabb"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/arab"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/arab"
+      android:textColor="#fff"
+      android:textSize="33sp"
+      android:layout_marginRight="10dp"
+      android:padding="2dp"
+      android:textStyle="bold|italic"
+      android:layout_alignParentEnd="true"
+      android:layout_marginEnd="10dp" />
+    <TextView
+        android:id="@+id/en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/engg"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/engl"
+        android:textColor="#fff"
+        android:textSize="33sp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</FrameLayout>

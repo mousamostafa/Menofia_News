@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#b9f6ca"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b9f6ca"
+    android:gravity="right"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:textSize="30sp"
+        android:text="الاسم : ريهام احمد السيد احمد  "
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:textSize="30sp"
+        android:text="الكلية : حاسبات ومعلومات"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:textSize="30sp"
+        android:text="الجامعة : المنوفية"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:textSize="30sp"
+        android:text="رقم الكود : 13452"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="ltr"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        />
+    <TextView
+        android:id="@+id/showres"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="ltr"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+</ScrollView>
+
+

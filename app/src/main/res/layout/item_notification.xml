@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b2dfdb"
+    android:layout_marginTop="3dp"
+    android:elevation="4dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+
+        />
+
+    <TextView
+        android:id="@+id/texserch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toLeftOf="@+id/imageView"
+        android:background="#0089ce"
+        android:gravity="center_vertical"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/texserch"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/imageView"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toLeftOf="@+id/imageView"
+        android:background="#0089ce"
+        android:gravity="center_vertical"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_below="@+id/textitle"/>
+</RelativeLayout>
+

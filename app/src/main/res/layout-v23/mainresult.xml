@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b2dfdb">
+    <ImageView
+        android:layout_width="331dp"
+        android:layout_height="131dp"
+        android:background="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:gravity="center"
+    >
+    <Spinner
+        android:id="@+id/spinner_fac"
+        android:layout_width="20dp"
+        android:layout_weight="2"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@android:color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الكلية"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Spinner
+            android:background="@android:color/white"
+            android:layout_weight="2"
+            android:layout_width="267dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner_year"
+            android:layout_margin="20dp"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الفرقة"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/cod"
+            android:background="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:layout_weight="1.0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="رقم الجلوس"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/res_btn"
+        android:text="بحث"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+
+
+        />
+
+
+</LinearLayout>

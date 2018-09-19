@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/sc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0f2f1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:id="@+id/lin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/imag"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/titl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:layout_alignParentRight="true"
+        android:textSize="25sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_marginTop="2dp"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textDirection="rtl"
+            android:layout_below="@+id/titl"
+            android:layout_alignParentRight="true"
+            android:textColor="#000"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <TextView
+       android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:id="@+id/detail"
+        android:textDirection="rtl"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/shar"
+            android:onClick="share"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_share"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:scaleType="centerCrop"
+            android:id="@+id/shot"
+            android:onClick="shoot"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_camera"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

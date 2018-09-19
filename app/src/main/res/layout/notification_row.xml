@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b2dfdb"
+    android:layout_marginTop="3dp"
+    android:elevation="4dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewnotifi"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toRightOf="@+id/hide"
+        android:gravity="center_vertical"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textDirection="anyRtl"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_toEndOf="@+id/hide" />
+    <Spinner
+        android:id="@+id/hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_touch_app_black_24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"/>
+</RelativeLayout>
+

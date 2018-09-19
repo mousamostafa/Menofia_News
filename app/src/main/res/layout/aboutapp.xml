@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2dfdb"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="it’s an App concerned to menofia university This app introduces to it’s users an easy way to surface news about university and also search about any news or event that has been posted and can insert post . and also allows to students to get their exam results ."
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        android:textSize="35sp"
+        android:textColor="#000"/>
+
+</android.support.constraint.ConstraintLayout>

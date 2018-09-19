@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="fill_parent"
+    android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="3dp">
+
+
+   <TextView
+       android:id="@+id/leadership"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:textColor="#000"
+       android:background="#b2dfdb"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:padding="5dp"
+       android:layout_margin="5dp"
+       android:textDirection="anyRtl"
+
+       />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyleleader"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#178950"
+        android:padding="2dp"
+        android:scrollbars="horizontal"
+
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyleabout"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#178950"
+        android:padding="3dp"
+        android:scrollbars="vertical"
+   />
+</LinearLayout>
+
+</ScrollView>

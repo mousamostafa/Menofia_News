@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#033935">
+
+    <Button
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leadership  University"
+        android:background="#034843"
+        android:textSize="18sp"
+        android:textColor="#c9d706"
+        />
+    <Button
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="vision university"
+        android:background="#034843"
+        android:textSize="18sp"
+        android:textColor="#c9d706"
+        android:onClick="about"
+        />
+    <Button
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="university message"
+        android:background="#034843"
+        android:textSize="18sp"
+        android:textColor="#c9d706"
+        android:onClick="about"
+        />
+    <Button
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="directory"
+        android:background="#034843"
+        android:textSize="18sp"
+        android:textColor="#c9d706"
+        android:onClick="about"
+        />
+    <Button
+        android:id="@+id/l5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="contact us"
+        android:background="#034843"
+        android:textSize="18sp"
+        android:textColor="#c9d706"
+        android:onClick="about"
+        />
+</LinearLayout>

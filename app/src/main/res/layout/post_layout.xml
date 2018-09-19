@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0f2f1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"  >
+
+
+        <ImageButton
+            android:id="@+id/Img_Btn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/ic_image_black_24dp"
+             />
+    <EditText
+        android:id="@+id/Header_Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tilte of news "
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:background="#b9f6ca"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+    <EditText
+        android:id="@+id/Details_Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Details of news"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:background="#b9f6ca"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+    <EditText
+        android:id="@+id/Src_Txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source of news"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:background="#b9f6ca"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+
+    <EditText
+        android:id="@+id/lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Language id"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:background="#b9f6ca"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/Post_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Post"
+        android:textColor="@android:color/black"
+        android:background="#b9f6ca"
+        android:textSize="25sp"
+         />
+
+</LinearLayout>
+</ScrollView>
